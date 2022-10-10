@@ -144,3 +144,8 @@ li {
 .slick-active button {
     background-color: #FF4040;
 }
+
+.bike__list {
+    display: flex;
+    justify-content: space-between;
+}
