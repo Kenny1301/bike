@@ -213,3 +213,63 @@ li {
     margin: auto 0;
     max-width: 450px;
 }
+
+.characteristics {
+    font-family: 'Inter';
+    font-style: normal;
+    margin-bottom: 150px;
+    line-height: 1.2;
+    color: #131313;
+}
+
+.characteristics__titles {
+    margin: 0 0 40px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.characteristics__title {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #131313;
+    padding: 2px 0 3px;
+}
+
+.characteristics__inner {
+    display: flex;
+}
+
+.characteristics__name {
+    font-weight: 400;
+    font-size: 14px;
+    flex-basis: 285px;
+    padding-right: 25px;
+}
+
+.characteristics__descr {
+    font-weight: 400;
+    font-size: 14px;
+    flex-basis: 285px;
+}
+
+.characteristics__img {
+    align-self: center;
+}
+
+.characteristics__items {
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+
+.characteristics__list:not(:first-child) {
+    padding-top: 30px;
+}
+
+.characteristics__line {
+    display: flex;
+    padding-top: 5px;
+}
